@@ -26,7 +26,9 @@ DISTRIB_DESCRIPTION="Ubuntu 22.04.5 LTS"
 
 #### 必要なパッケージインストール
 ```bash
-$ apt install python3.10-venv
+$ apt install python3.10-venv jq
+$ apt install portaudio19-dev
+$ apt install ffmpeg
 ```
 
 #### 仮想環境作成入場
@@ -38,6 +40,8 @@ $ source venv/bin/activate
 ```
 (venv)$ pip install -U pip
 (venv)$ pip install python-dotenv
+(venv)$ pip install pyaudio
+(venv)$ pip install git+https://github.com/rinnakk/Koemotion
 ```
 
 
@@ -66,5 +70,12 @@ $ source venv/bin/activate
 # koemotion
 まずはドキュメントから
 [Koemotionの利用ガイド](https://koemotion.rinna.co.jp/guide)
+[rinna Developersのログインページ](https://developers.rinna.co.jp/ja-jp/signin)
+流れ
+1. Rinna ID のアカウント作成
+1. APIをもらう
+
+
+
 
 
