@@ -45,7 +45,7 @@ $ source venv/bin/activate
 ---
 ここまでのディレクトリ構造
 ```
-(venv) root@ayakashi:/home/bastet/work/ai/koemotion# tree -L 2
+(venv)tree -L 2
 .
 ├── README.md
 ├── __pycache__
