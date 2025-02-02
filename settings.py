@@ -10,7 +10,3 @@ load_dotenv(dotenv_path)
 DSN = os.environ.get("DB_NAME")
 USN = os.environ.get("USER_NAME")
 PWD = os.environ.get("PASSWORD")
-
-# print(DSN)
-# print(USN)
-# print(PWD)
